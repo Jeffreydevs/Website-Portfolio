@@ -1,23 +1,72 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jeffrey | Frontend Developer</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
-          <nav class="navbar">
-             <a href="">HOME</a> 
-             <a href="">ABOUT</a>
-             <a href="">PROJECTS</a>
-             <a href="">CONTACT</a>
-          </nav>
+            <nav class="navbar">
+                <a href="#home">HOME</a>
+                <a href="#about">ABOUT</a>
+                <a href="#projects">PROJECTS</a>
+                <a href="#contact">CONTACT</a>
+            </nav>
         </header>
-        <div class="hero">
-           <div class="left"><img src = "Jeff.jpg"></div>
-           <div class="right">
-              <h1>Hello, My Name is Jeffrey. I'm a Frontend Developer who loves to build websites.</h1>
 
-           </div>
-        </div>
-        <script src = "index.js"></script>
+        <section id="home">
+            <div class="hero">
+                <div class="left">
+                    <img src="Jeff.jpg" alt="Jeffrey">
+                </div>
+                <div class="right">
+                    <p class="intro">Frontend Developer</p>
+                    <h1>Hello, I'm Jeffrey. I build clean and responsive websites.</h1>
+                    <a class="hero-btn" href="#projects">View Projects</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="section-content">
+                <h1>About Me</h1>
+                <p>
+                    I am a frontend developer learning to create modern websites using HTML,
+                    CSS, and JavaScript. I enjoy turning ideas into simple, useful, and good-looking
+                    web pages.
+                </p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="section-content">
+                <h1>Projects</h1>
+                <div class="project-card">
+                    <img class="project-preview" src="Scorecard.png" alt="Basketball Scorecard preview">
+                    <h2>Basketball Scorecard</h2>
+                    <p>
+                        A score tracking app with timer controls, team scores, and reset functionality.
+                    </p>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="section-content contact-box">
+                <h1>Contact Me</h1>
+                <p>Have a project idea or want to connect? Reach out anytime.</p>
+                <div class="contact-links">
+                    <a href="mailto:your-email@example.com">Email</a>
+                    <a href="https://www.instagram.com/thissjeffrey" target="_blank">Instagram</a>
+                </div>
+            </div>
+        </section>
+
+        <script src="index.js"></script>
     </body>
 </html>
