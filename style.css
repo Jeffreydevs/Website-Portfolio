@@ -176,6 +176,12 @@ section {
     object-position: top;
 }
 
+.project-preview-contain {
+    background: #e5e7eb;
+    object-fit: contain;
+    object-position: center;
+}
+
 .project-card h2 {
     margin: 0 0 12px;
     font-size: 25px;
