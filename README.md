@@ -30,9 +30,9 @@ A Netflix-inspired landing page with a bold hero section, modern layout, and res
 
 ### Spendifi
 
-An expense tracker app for recording spending, organizing transactions, and viewing budget activity.
+A full-stack expense tracker app for recording spending, organizing transactions, viewing budget activity, and storing expense data with backend support.
 
-- Built with: React, CSS, JavaScript
+- Built with: React, CSS, JavaScript, Node.js, Express, MongoDB
 
 ## Features
 
@@ -49,6 +49,9 @@ An expense tracker app for recording spending, organizing transactions, and view
 - CSS3
 - JavaScript
 - React
+- Node.js
+- Express
+- MongoDB
 - Git and GitHub
 
 ## Contact
