@@ -1,10 +1,10 @@
 # Jeffrey | Frontend Developer Portfolio
 
-A personal portfolio website built to showcase my frontend projects, skills, and contact links.
+A personal portfolio website built to showcase my frontend and full-stack projects, skills, and contact links.
 
 ## About
 
-I am Jeffrey, a frontend developer learning to build clean, responsive, and useful web applications using HTML, CSS, JavaScript, and React.
+I am Jeffrey, a frontend developer building clean, responsive, and useful web applications with HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB.
 
 ## Projects
 
@@ -26,20 +26,24 @@ A browser-based Blackjack game with betting, chips, dealer logic, hit/stand acti
 
 A Netflix-inspired landing page with a bold hero section, modern layout, and responsive styling.
 
+- Live demo: https://filmynot.netlify.app/
 - Built with: React, CSS, JavaScript
 
 ### Spendifi
 
 A full-stack expense tracker app for recording spending, organizing transactions, viewing budget activity, and storing expense data with backend support.
 
+- Live demo: https://spendifi.netlify.app/
 - Built with: React, CSS, JavaScript, Node.js, Express, MongoDB
 
 ## Features
 
 - Single-page portfolio layout
 - Smooth section navigation
+- Recruiter-friendly skills section
 - Responsive project grid
 - Project preview images
+- Live project links
 - Contact links
 - Clean modern UI
 
@@ -56,4 +60,6 @@ A full-stack expense tracker app for recording spending, organizing transactions
 
 ## Contact
 
+- Email: jefferymsd101@gmail.com
+- GitHub: https://github.com/Jeffreydevs
 - Instagram: https://www.instagram.com/thissjeffrey
